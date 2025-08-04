@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(85, 83, 83);
+}
+.header{
+    background-color: black;
+    position:sticky;
+    top:0px;
+    width: auto;
+    display: flex;
+}
+.nav-left{
+    border: 10px solid;
+    flex:1;
+}
+.nav-center{
+    border: 10px solid;
+    flex: 2;
+    
+}
+.nav-right{
+    border: 10px solid;
+    flex:1;
+}
+.profile{
+    border:wheat 1px solid;
+    height: 250px;
+    width: 250px;   
+    border-radius: 360px;
+    position:relative;
+    margin-top:20%;
+    background-image: none;
+}
+.post{
+    background-image: none;
+    border: 20px;
+    height: 60vh;
+    width: 100vw;
+    background-color: grey;
+    position: absolute;
+    top: 9%;
+    border-radius:50px;
+}
